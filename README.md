@@ -14,6 +14,10 @@ This shader allows one to change the materials properties of the megascan. While
 
 The heart of the shader itself is the UE4 blueprint that provides both the underlying shader math and the user interface (UI) code that allows users to easily change material properties in the Editor. As the values are changed in the editor, they are used as inputs to update the shader. The shader then applies the updated values to the material instance, resulting in an updated look in real time.
 
+```
+![Shader in Action](documentation/images/megascan_shader.gif)
+```
+
 ## Warning!
 
 To comply with the terms of the [Unreal Engine EULA](https://www.unrealengine.com/en-US/eula/publishing), this project can be used in UE4/Twinmotion **ONLY**.
